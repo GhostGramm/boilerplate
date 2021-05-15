@@ -30,7 +30,8 @@
     "grunt-replace": "^1.0.1"
   },
   "dependencies": {
-    "coffeescript": "^2.5.1"
+    "coffeescript": "^2.5.1",
+    "melonjs": "^8.0.1"
   },
   "scripts": {
     "build": "grunt",

@@ -3,6 +3,9 @@ game.PlayScreen = me.Stage.extend({
      *  action to perform on state change
      */
     onResetEvent: function() {
+        //load a level
+        me.levelDirector.loadLevel("area01");
+
         // reset the score
         game.data.score = 0;
 
@@ -17,6 +20,6 @@ game.PlayScreen = me.Stage.extend({
      */
     onDestroyEvent: function() {
         // remove the HUD from the game world
-        me.game.world.removeChild(this.HUD);
+        // me.game.world.removeChild(this.HUD);
     }
 });
